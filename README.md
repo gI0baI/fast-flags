@@ -23,6 +23,10 @@
 1. [⊞+r]
 2. `%localappdata%/Roblox/Versions/ClientSettings/ClientAppSettings.json`
 
+> [!NOTE]
+> For every installation and update, Roblox clears the `ClientSettings` folder. It's best to keep a backup of your `ClientAppSettings.json` file
+> You may install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) for automatic changes
+
 ### Modifying the JSON Flags file
 3. Open `ClientAppSettings.json` or create a new `.json` file with the name `ClientAppSettings`
 4. Follow this format:
@@ -34,7 +38,7 @@
 }
 ```
 
-###### More information about Flags [here](https://github.com/MaximumADHD/Roblox-FFlag-Tracker?tab=readme-ov-file#terminology)
+###### More information about Flags [here](https://github.com/MaximumADHD/Roblox-FFlag-Tracker)
 
 # Fast Flags
 
