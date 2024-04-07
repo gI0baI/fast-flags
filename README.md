@@ -84,6 +84,16 @@ Displays your FPS without pressing [shift+f5] and showing other details with the
 "FFlagDebugDisplayFPS": true
 ```
 
+### Exclusive Fullscreen
+Allows you to enter exclusive fullscreen mode by pressing [alt+enter]; significantly improves performance, lowers input latency, with the expense of screen tearing
+
+> [!NOTE]
+> V-sync will be disabled upon entering exclusive fullscreen
+
+```json
+"FFlagHandleAltEnterFullscreenManually": false
+```
+
 ## Physics
 
 ### Noclip
@@ -171,14 +181,64 @@ Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8; the higher th
 ## User Interface
 
 ### Hide Guis
-Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [ctrl+⇧+b], and player names [ctrl+⇧+n]; requires you to be in any group
+Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [ctrl+⇧+b], and player names [ctrl+⇧+n]
+
+> [!IMPORTANT]
+> Requires you to be in a group
 
 ```json
 "DFIntCanHideGuiGroupId": "GroupId"
 ```
 
+### Disable Direct3D 11
+Disables Direct3D 11 so you can use other 3D APIs
+
+```json
+"FFlagDebugGraphicsDisableDirect3D11": true
+```
+
+### Direct3D 10
+The client will use Direct3D 10
+
+> [!IMPORTANT]
+> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
+
+```json
+"FFlagDebugGraphicsPreferD3D11FL10": true
+```
+
+### Direct3D 11
+The client will use Direct3D 11
+
+```json
+"FFlagDebugGraphicsPreferD3D11": true
+```
+
+### OpenGL API
+The client will use OpenGL
+
+> [!IMPORTANT]
+> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
+
+```json
+"FFlagDebugGraphicsPreferOpenGL": true
+```
+
+### Vulkan API
+The client will use Vulkan
+
+> [!IMPORTANT]
+> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
+
+```json
+"FFlagDebugGraphicsPreferVulkan": true
+```
+
 ### 2015 Gui
 The client will use the classic v1 Gui
+
+> [!IMPORTANT]
+> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled
 
 ```json
 "FFlagDisableNewIGMinDUA": true,
@@ -189,6 +249,9 @@ The client will use the classic v1 Gui
 ### 2020 Gui
 The client will use the v2 side Gui
 
+> [!IMPORTANT]
+> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled
+
 ```json
 "FFlagDisableNewIGMinDUA": false,
 "FFlagEnableInGameMenuControls": false,
@@ -196,7 +259,10 @@ The client will use the v2 side Gui
 ```
 
 ### 2023 Gui
-The client will use the modern v3 Gui; requires the v4 Gui [Flag]() to be disabled
+The client will use the modern v3 Gui
+
+> [!IMPORTANT]
+> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled
 
 ```json
 "FFlagDisableNewIGMinDUA": true,
@@ -236,10 +302,7 @@ Allows you to set your camera's max zoom limit; does not work on games with cust
 ## Others
 
 ### Not What You're Looking For
-Disables [Byfron](https://devforum.roblox.com/t/welcoming-byfron-to-roblox/2018233)
-
-> [!CAUTION]
-> This Flag is exploitable
+What are you doing?
 
 ```json
 "DFFlagNotWhatYoureLookingFor": true
@@ -252,16 +315,16 @@ Disables in-game purchases
 "DFFlagOrder66": true
 ```
 
-### Force Lottery Win
-Makes you win every Roblox's lottery event
-
-```json
-"FFlagDebugAnalyticsForceLotteryWin": true
-```
-
 ### No ads
 Disables in-game ads and ad portals
 
 ```json
 "FFlagAdServiceEnabled": false
+```
+
+### Force Lottery Win
+Makes you win every Roblox's lottery event
+
+```json
+"FFlagDebugAnalyticsForceLotteryWin": true
 ```
