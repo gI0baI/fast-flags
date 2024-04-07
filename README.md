@@ -3,7 +3,7 @@
 > [!TIP]
 > [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) is highly recommended for modifying the Roblox client.
 
-## For those who want to use the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Flags menu
+## For Those Who Want to Use the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Flags Menu
 1. [⊞+r]
 2. `%localappdata%/Bloxstrap/Bloxstrap.exe -menu`
 3. Click on FastFlags
@@ -13,7 +13,7 @@
 > [!NOTE]
 > When adding Flags, it's best to remove the quotation marks around the Flag and value.
 
-## For those who want to modify the JSON Flags file
+## For Those Who Want to Modify the JSON Flags File
 
 ### For [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Users
 1. [⊞+r]
@@ -26,7 +26,7 @@
 > [!NOTE]
 > For every installation and update, Roblox clears the `ClientSettings` folder. It's best to keep a backup of your `ClientAppSettings.json` file. You may install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) for automatic changes.
 
-### Modifying the JSON Flags file
+### Modifying the JSON Flags File
 3. Open `ClientAppSettings.json` or create a new `.json` file with the name `ClientAppSettings`
 4. Follow this format:
 
@@ -50,7 +50,7 @@
 ## Graphics
 
 ### Network Interpolation Visualizer
-Highlights physically moving parts by pressing [ctrl+f8][ctrl+i]
+Highlights physically moving parts by pressing [ctrl+f8][ctrl+i].
 
 > [!CAUTION]
 > This Flag is exploitable.
@@ -60,14 +60,14 @@ Highlights physically moving parts by pressing [ctrl+f8][ctrl+i]
 ```
 
 ### Quality Scale Fix
-Fixes blurry quality when your display scale is greater than 100%
+Fixes blurry quality when your display scale is greater than 100%.
 
 ```json
 "DFFlagDisableDPIScale": true
 ```
 
 ### Set FPS Cap
-Allows you to set your max FPS limit; however, unlike [RFU](https://github.com/axstin/rbxfpsunlocker)'s memory write mode, the set FPS limit cannot be changed later during the game;
+Allows you to set your max FPS limit. However, unlike [RFU](https://github.com/axstin/rbxfpsunlocker)'s memory write mode, the set FPS limit cannot be changed later during the game.
 
 > [!NOTE]
 > A more advanced [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap-1) is available.
@@ -77,7 +77,7 @@ Allows you to set your max FPS limit; however, unlike [RFU](https://github.com/a
 ```
 
 ### Player Billboard
-Adds a black billboard and a red circle above and below every player, respectively
+Adds a black billboard and a red circle above and below every player, respectively.
 
 > [!CAUTION] 
 > This Flag is exploitable.
@@ -87,14 +87,14 @@ Adds a black billboard and a red circle above and below every player, respective
 ```
 
 ### Display FPS
-Displays your FPS without pressing [shift+f5] and showing other details with the expense of not being able to toggle it
+Displays your FPS without pressing [shift+f5] and showing other details with the expense of not being able to toggle it.
 
 ```json
 "FFlagDebugDisplayFPS": true
 ```
 
 ### Exclusive Fullscreen
-Allows you to enter exclusive fullscreen mode by pressing [alt+enter]; significantly improves performance, lowers input latency, with the expense of screen tearing
+Allows you to enter exclusive fullscreen mode by pressing [alt+enter]; significantly improves performance, lowers input latency, with the expense of screen tearing.
 
 > [!NOTE]
 > V-sync will be disabled upon entering exclusive fullscreen.
@@ -106,7 +106,7 @@ Allows you to enter exclusive fullscreen mode by pressing [alt+enter]; significa
 ## Physics
 
 ### Noclip
-Allows you to clip through thin walls / floors; the lower the number, the more the thickness of parts you can clip through
+Allows you to clip through thin walls / floors. The lower the number, the more the thickness of parts you can clip through.
 
 > [!CAUTION]
 > This Flag is exploitable.
@@ -116,14 +116,14 @@ Allows you to clip through thin walls / floors; the lower the number, the more t
 ```
 
 ### Fake Lag
-Simulates high latency / desync as you will appear behind in the server than what it looks in the client
+Simulates high latency / desync as you will appear behind in the server than what it looks in the client.
 
 ```json
 "DFIntS2PhysicsSenderRate": 1
 ```
 
 ### Wall speeding
-Controllable speed hack by gliding on long walls
+Controllable speed hack by gliding on long walls.
 
 > [!CAUTION]
 > This Flag is exploitable.
@@ -135,35 +135,35 @@ Controllable speed hack by gliding on long walls
 ## Render
 
 ### Shadowmap [Lighting Technology](https://create.roblox.com/docs/environment/lighting#technology)
-Forces future shadows but voxel lighting
+Forces future shadows but voxel lighting.
 
 ```json
 "FFlagDebugForceFutureIsBrightPhase2": true
 ```
 
 ### Future [Lighting Technology](https://create.roblox.com/docs/environment/lighting#technology)
-Forces future shadows and lighting
+Forces future shadows and lighting.
 
 ```json
 "FFlagDebugForceFutureIsBrightPhase3": true
 ```
 
 ### Voxel [Lighting Technology](https://create.roblox.com/docs/environment/lighting#technology)
-Forces voxel shadows and lighting
+Forces voxel shadows and lighting.
 
 ```json
 "DFFlagDebugRenderForceTechnologyVoxel": true
 ```
 
 ### Disable Direct3D 11
-Disables Direct3D 11 so you can use other 3D APIs
+Disables Direct3D 11 so you can use other 3D APIs.
 
 ```json
 "FFlagDebugGraphicsDisableDirect3D11": true
 ```
 
 ### Direct3D 10
-The client will use Direct3D 10 as the 3D rendering API
+The client will use Direct3D 10 as the 3D rendering API.
 
 > [!IMPORTANT]
 > Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled.
@@ -173,14 +173,14 @@ The client will use Direct3D 10 as the 3D rendering API
 ```
 
 ### Direct3D 11
-The client will use Direct3D 11 as the 3D rendering API
+The client will use Direct3D 11 as the 3D rendering API.
 
 ```json
 "FFlagDebugGraphicsPreferD3D11": true
 ```
 
 ### OpenGL API
-The client will use OpenGL as the 3D rendering API
+The client will use OpenGL as the 3D rendering API.
 
 > [!IMPORTANT]
 > Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled.
@@ -190,7 +190,7 @@ The client will use OpenGL as the 3D rendering API
 ```
 
 ### Vulkan API
-The client will use Vulkan as the 3D rendering API
+The client will use Vulkan as the 3D rendering API.
 
 > [!IMPORTANT]
 > Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled.
@@ -200,7 +200,7 @@ The client will use Vulkan as the 3D rendering API
 ```
 
 ### Fix / Force Blurry Textures
-Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and distorted? No problem, this Flag controls all that! Allows you to set the quality of textures from 0 to 3, where 0 and 3 are the lowest and highest quality, respectively
+Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and distorted? No problem, this Flag controls all that! It allows you to set the quality of textures from 0 to 3, where 0 and 3 are the lowest and highest quality, respectively.
 
 ```json
 "DFFlagTextureQualityOverrideEnabled": true,
@@ -218,28 +218,28 @@ Unions and meshes are composed of [constructive solid geometry](https://devforum
 ```
 
 ### No Player Textures
-Stop rendering every player's clothing, making them appear grey
+Stop rendering every player's clothing, making them appear grey.
 
 ```json
 "DFIntTextureCompositorActiveJobs": 0
 ```
 
 ### Anti-aliasing
-Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8; the higher the number, the more it may affect performance
+Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8. The higher the number, the more it may affect performance.
 
 ```json
 "FIntDebugForceMSAASamples": 1
 ```
 
 ### No Shadows
-Disables part and player shadows
+Disables part and player shadows.
 
 ```json
 "FIntRenderShadowIntensity": 0
 ```
 
 ### No Post-Processing Effects
-Disables all [post-processing effects](https://create.roblox.com/docs/environment/post-processing-effects) like blur and depth-of-field
+Disables all [post-processing effects](https://create.roblox.com/docs/environment/post-processing-effects) like blur and depth-of-field.
 
 ```json
 "FFlagDisablePostFx": true
@@ -248,7 +248,7 @@ Disables all [post-processing effects](https://create.roblox.com/docs/environmen
 ## User Interface
 
 ### Hide Guis
-Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [ctrl+⇧+b], and player names [ctrl+⇧+n]
+Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [ctrl+⇧+b], and player names [ctrl+⇧+n].
 
 > [!IMPORTANT]
 > Requires you to be in a group.
@@ -261,21 +261,21 @@ Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [c
 ```
 
 ### No Chat
-Focus on the game rather than dealing with salty kids
+Focus on the game rather than dealing with salty kids.
 
 ```json
 "FFlagDebugForceChatDisabled": true
 ```
 
 ### No Sound Drivers
-Disables Roblox from detecting audio output devices
+Disables Roblox from detecting audio output devices.
 
 ```json
 "FFlagDebugRomarkMockingAudioDevices": true
 ```
 
 ### 2015 Gui
-The client will use the classic v1 Gui
+The client will use the classic v1 Gui.
 
 > [!IMPORTANT]
 > Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
@@ -287,7 +287,7 @@ The client will use the classic v1 Gui
 ```
 
 ### 2020 Gui
-The client will use the v2 side Gui
+The client will use the v2 side Gui.
 
 > [!IMPORTANT]
 > Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
@@ -299,7 +299,7 @@ The client will use the v2 side Gui
 ```
 
 ### 2023 Gui
-The client will use the modern v3 Gui
+The client will use the modern v3 Gui.
 
 > [!IMPORTANT]
 > Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
@@ -311,7 +311,7 @@ The client will use the modern v3 Gui
 ```
 
 ### No 2024 Gui
-Roblox has since forced players to use the new Chrome v4 Gui; these Flags disables it
+Roblox has since forced players to use the new Chrome v4 Gui; these Flags disables it.
 
 ```json
 "FFlagEnableInGameMenuChromeABTest2": false,
@@ -319,14 +319,14 @@ Roblox has since forced players to use the new Chrome v4 Gui; these Flags disabl
 ```
 
 ### Advanced Graphics Quality
-Adds more quality bars from 10 to 21 bars
+Adds more quality bars from 10 to 21 bars.
 
 ```json
 "FFlagFixGraphicsQuality": true
 ```
 
 ### Set FPS Cap
-Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 240;
+Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 240.
 
 > [!IMPORTANT]
 > Requires the target fps [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap) to be set to 0 (Default).
@@ -336,7 +336,7 @@ Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 
 ```
 
 ### Hide Guis
-Allows you to toggle game Guis in the Roblox settings
+Allows you to toggle game Guis in the Roblox settings.
 
 ```json
 "FFlagUserShowGuiHideToggles": true,
@@ -344,21 +344,21 @@ Allows you to toggle game Guis in the Roblox settings
 ```
 
 ### Set Camera Zoom Limit
-Allows you to set your camera's max zoom limit; does not work on games with customized zoom limits
+Allows you to set your camera's max zoom limit; does not work on games with customized zoom limits.
 
 ```json
 "FIntCameraMaxZoomDistance": 16384
 ```
 
 ### No Roblox Blur Overlay
-Disables the blur you see in loading and disconnection screens
+Disables the blur you see in loading and disconnection screens.
 
 ```json
 "FIntRobloxGuiBlurIntensity": 0
 ```
 
 ### Set Start Graphics Quality
-Allows you to set the graphics quality Roblox will always start with; up to 10 by default, up to 21 if the quality [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#advanced-graphics-quality) is enabled
+Allows you to set the graphics quality Roblox will always start with; up to 10 by default, up to 21 if the quality [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#advanced-graphics-quality) is enabled.
 
 ```json
 "FIntRomarkStartWithGraphicQualityLevel": 1
@@ -374,21 +374,21 @@ Allows you to set the graphics quality Roblox will always start with; up to 10 b
 ```
 
 ### No purchase pop-up
-Disables in-game purchases
+Disables in-game purchases.
 
 ```json
 "DFFlagOrder66": true
 ```
 
 ### No ads
-Disables in-game ads and ad portals
+Disables in-game ads and ad portals.
 
 ```json
 "FFlagAdServiceEnabled": false
 ```
 
 ### Force Lottery Win
-*Makes you win every Roblox's lottery event*
+*Makes you win every Roblox's lottery event.*
 
 ```json
 "FFlagDebugAnalyticsForceLotteryWin": true
