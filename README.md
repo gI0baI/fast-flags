@@ -1,13 +1,25 @@
-## Tutorial
+# Tutorial
 
 > [!TIP]
 > [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) is highly recommended for modifying the Roblox client
+
+## For those who want to use the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Flags menu
+1. [⊞+r]
+2. `%localappdata%/Bloxstrap/Bloxstrap.exe -menu`
+3. Click on FastFlags
+4. Click on FastFlag Editor
+5. Use common sense
+
+> [!NOTE]
+> When adding Flags, it's best to remove the quotation marks around the Flag and value
+
+## For those who want to modify the JSON Flags file
 
 ### For [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Users
 1. [⊞+r]
 2. `%localappdata%/Bloxstrap/Modifications/ClientSettings/ClientAppSettings.json`
 
-### For [Roblox](https://www.roblox.com/download) Users
+### For Roblox Users
 1. [⊞+r]
 2. `%localappdata%/Roblox/Versions/ClientSettings/ClientAppSettings.json`
 
