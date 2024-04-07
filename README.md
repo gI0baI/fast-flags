@@ -1,7 +1,7 @@
 # Tutorial
 
 > [!TIP]
-> [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) is highly recommended for modifying the Roblox client
+> [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) is highly recommended for modifying the Roblox client.
 
 ## For those who want to use the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Flags menu
 1. [⊞+r]
