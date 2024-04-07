@@ -46,7 +46,7 @@ Adds a grey billboard and a red circle above and below every player, respectivel
 ```
 
 ### Display FPS
-Displays your FPS without pressing [shift+f5] and other details with the expense of toggling
+Displays your FPS without pressing [shift+f5] and showing other details with the expense of not being able to toggle
 
 ```json
 "FFlagDebugDisplayFPS": true
