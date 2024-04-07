@@ -4,8 +4,8 @@
 > [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) is highly recommended for modifying the Roblox client.
 
 ## For Those Who Want to Use the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Flags Menu
-1. [⊞+r]
-2. `%localappdata%/Bloxstrap/Bloxstrap.exe -menu`
+1. Press [⊞+r]
+2. Type `%localappdata%/Bloxstrap/Bloxstrap.exe -menu`
 3. Click on FastFlags
 4. Click on FastFlag Editor
 5. Use common sense
@@ -16,12 +16,12 @@
 ## For Those Who Want to Modify the JSON Flags File
 
 ### For [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Users
-1. [⊞+r]
-2. `%localappdata%/Bloxstrap/Modifications/ClientSettings/ClientAppSettings.json`
+1. Press [⊞+r]
+2. Type `%localappdata%/Bloxstrap/Modifications/ClientSettings/ClientAppSettings.json`
 
 ### For Roblox Users
-1. [⊞+r]
-2. `%localappdata%/Roblox/Versions/ClientSettings/ClientAppSettings.json`
+1. Press [⊞+r]
+2. Type `%localappdata%/Roblox/Versions/ClientSettings/ClientAppSettings.json`
 
 > [!NOTE]
 > For every installation and update, Roblox clears the `ClientSettings` folder. It's best to keep a backup of your `ClientAppSettings.json` file. You may install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) for automatic changes.
