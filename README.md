@@ -11,7 +11,7 @@
 5. Use common sense
 
 > [!NOTE]
-> When adding Flags, it's best to remove the quotation marks around the Flag and value
+> When adding Flags, it's best to remove the quotation marks around the Flag and value.
 
 ## For those who want to modify the JSON Flags file
 
@@ -24,8 +24,7 @@
 2. `%localappdata%/Roblox/Versions/ClientSettings/ClientAppSettings.json`
 
 > [!NOTE]
-> For every installation and update, Roblox clears the `ClientSettings` folder. It's best to keep a backup of your `ClientAppSettings.json` file.
-> You may install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) for automatic changes
+> For every installation and update, Roblox clears the `ClientSettings` folder. It's best to keep a backup of your `ClientAppSettings.json` file. You may install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) for automatic changes.
 
 ### Modifying the JSON Flags file
 3. Open `ClientAppSettings.json` or create a new `.json` file with the name `ClientAppSettings`
@@ -54,7 +53,7 @@
 Highlights physically moving parts by pressing [ctrl+f8][ctrl+i]
 
 > [!CAUTION]
-> This Flag is exploitable
+> This Flag is exploitable.
 
 ```json
 "DFFlagDebugEnableInterpolationVisualizer": true
@@ -71,7 +70,7 @@ Fixes blurry quality when your display scale is greater than 100%
 Allows you to set your max FPS limit; however, unlike [RFU](https://github.com/axstin/rbxfpsunlocker)'s memory write mode, the set FPS limit cannot be changed later during the game;
 
 > [!NOTE]
-> A more advanced [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap-1) is available
+> A more advanced [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap-1) is available.
 
 ```json
 "DFIntTaskSchedulerTargetFps": 144
@@ -81,7 +80,7 @@ Allows you to set your max FPS limit; however, unlike [RFU](https://github.com/a
 Adds a black billboard and a red circle above and below every player, respectively
 
 > [!CAUTION] 
-> This Flag is exploitable
+> This Flag is exploitable.
 
 ```json
 "FFlagDebugAvatarChatVisualization": true
@@ -98,7 +97,7 @@ Displays your FPS without pressing [shift+f5] and showing other details with the
 Allows you to enter exclusive fullscreen mode by pressing [alt+enter]; significantly improves performance, lowers input latency, with the expense of screen tearing
 
 > [!NOTE]
-> V-sync will be disabled upon entering exclusive fullscreen
+> V-sync will be disabled upon entering exclusive fullscreen.
 
 ```json
 "FFlagHandleAltEnterFullscreenManually": false
@@ -110,7 +109,7 @@ Allows you to enter exclusive fullscreen mode by pressing [alt+enter]; significa
 Allows you to clip through thin walls / floors; the lower the number, the more the thickness of parts you can clip through
 
 > [!CAUTION]
-> This Flag is exploitable
+> This Flag is exploitable.
 
 ```json
 "DFFlagAssemblyExtentsExpansionStudHundredth": -30
@@ -127,7 +126,7 @@ Simulates high latency / desync as you will appear behind in the server than wha
 Controllable speed hack by gliding on long walls
 
 > [!CAUTION]
-> This Flag is exploitable
+> This Flag is exploitable.
 
 ```json
 "DFIntUnstickForceAttackInTenths": -4
@@ -167,7 +166,7 @@ Disables Direct3D 11 so you can use other 3D APIs
 The client will use Direct3D 10 as the 3D rendering API
 
 > [!IMPORTANT]
-> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
+> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled.
 
 ```json
 "FFlagDebugGraphicsPreferD3D11FL10": true
@@ -184,7 +183,7 @@ The client will use Direct3D 11 as the 3D rendering API
 The client will use OpenGL as the 3D rendering API
 
 > [!IMPORTANT]
-> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
+> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled.
 
 ```json
 "FFlagDebugGraphicsPreferOpenGL": true
@@ -194,7 +193,7 @@ The client will use OpenGL as the 3D rendering API
 The client will use Vulkan as the 3D rendering API
 
 > [!IMPORTANT]
-> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
+> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled.
 
 ```json
 "FFlagDebugGraphicsPreferVulkan": true
@@ -252,10 +251,10 @@ Disables all [post-processing effects](https://create.roblox.com/docs/environmen
 Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [ctrl+⇧+b], and player names [ctrl+⇧+n]
 
 > [!IMPORTANT]
-> Requires you to be in a group
+> Requires you to be in a group.
 
 > [!TIP]
-> Use with the Gui toggle [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#hide-guis-1) for best experience
+> Use with the Gui toggle [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#hide-guis-1) for best experience.
 
 ```json
 "DFIntCanHideGuiGroupId": "GroupId"
@@ -279,7 +278,7 @@ Disables Roblox from detecting audio output devices
 The client will use the classic v1 Gui
 
 > [!IMPORTANT]
-> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled
+> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
 
 ```json
 "FFlagDisableNewIGMinDUA": true,
@@ -291,7 +290,7 @@ The client will use the classic v1 Gui
 The client will use the v2 side Gui
 
 > [!IMPORTANT]
-> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled
+> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
 
 ```json
 "FFlagDisableNewIGMinDUA": false,
@@ -303,7 +302,7 @@ The client will use the v2 side Gui
 The client will use the modern v3 Gui
 
 > [!IMPORTANT]
-> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled
+> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
 
 ```json
 "FFlagDisableNewIGMinDUA": true,
@@ -330,7 +329,7 @@ Adds more quality bars from 10 to 21 bars
 Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 240;
 
 > [!IMPORTANT]
-> Requires the target fps [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap) to be set to 0 (Default)
+> Requires the target fps [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap) to be set to 0 (Default).
 
 ```json
 "FFlagGameBasicSettingsFramerateCap": true
