@@ -38,6 +38,12 @@
 
 # Fast Flags
 
+* [Graphics](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#graphics)
+* [Physics](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#physics)
+* [Render](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#render)
+* [User Interface](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#user-interface)
+* [Others](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#others)
+
 ## Graphics
 
 ### Network Interpolation Visualizer
@@ -146,6 +152,50 @@ Forces voxel shadows and lighting
 "DFFlagDebugRenderForceTechnologyVoxel": true
 ```
 
+### Disable Direct3D 11
+Disables Direct3D 11 so you can use other 3D APIs
+
+```json
+"FFlagDebugGraphicsDisableDirect3D11": true
+```
+
+### Direct3D 10
+The client will use Direct3D 10 as the 3D rendering API
+
+> [!IMPORTANT]
+> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
+
+```json
+"FFlagDebugGraphicsPreferD3D11FL10": true
+```
+
+### Direct3D 11
+The client will use Direct3D 11 as the 3D rendering API
+
+```json
+"FFlagDebugGraphicsPreferD3D11": true
+```
+
+### OpenGL API
+The client will use OpenGL as the 3D rendering API
+
+> [!IMPORTANT]
+> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
+
+```json
+"FFlagDebugGraphicsPreferOpenGL": true
+```
+
+### Vulkan API
+The client will use Vulkan as the 3D rendering API
+
+> [!IMPORTANT]
+> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
+
+```json
+"FFlagDebugGraphicsPreferVulkan": true
+```
+
 ### Fix / Force Blurry Textures
 Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and distorted? No problem, this Flag controls all that! Allows you to set the quality of textures from 0 to 3, where 0 and 3 are the lowest and highest quality, respectively
 
@@ -188,50 +238,6 @@ Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [c
 
 ```json
 "DFIntCanHideGuiGroupId": "GroupId"
-```
-
-### Disable Direct3D 11
-Disables Direct3D 11 so you can use other 3D APIs
-
-```json
-"FFlagDebugGraphicsDisableDirect3D11": true
-```
-
-### Direct3D 10
-The client will use Direct3D 10
-
-> [!IMPORTANT]
-> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
-
-```json
-"FFlagDebugGraphicsPreferD3D11FL10": true
-```
-
-### Direct3D 11
-The client will use Direct3D 11
-
-```json
-"FFlagDebugGraphicsPreferD3D11": true
-```
-
-### OpenGL API
-The client will use OpenGL
-
-> [!IMPORTANT]
-> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
-
-```json
-"FFlagDebugGraphicsPreferOpenGL": true
-```
-
-### Vulkan API
-The client will use Vulkan
-
-> [!IMPORTANT]
-> Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled
-
-```json
-"FFlagDebugGraphicsPreferVulkan": true
 ```
 
 ### 2015 Gui
