@@ -219,7 +219,7 @@ Unions and meshes are composed of [constructive solid geometry](https://devforum
 ```
 
 ### No Player Textures
-Stop rendering every player's clothing, making them appear grey.
+Stops rendering every player's clothing, making them appear grey.
 
 ```json
 "DFIntTextureCompositorActiveJobs": 0
