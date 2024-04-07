@@ -406,3 +406,9 @@ Does not fully disable Roblox's telemetry system but stops most collection of us
 "FFlagDebugDisableTelemetryV2Event": true,
 "FFlagDebugDisableTelemetryV2Stat": true
 ```
+
+# Credits
+- [Bloxstrap Discord](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712)
+- [Fast Flags Collection](https://github.com/GoingCrazyDude/fastflags-collection/)
+- [Fast Flags Collective](https://github.com/FastFlags/FastFlags-Collective)
+- [Roblox FFlag Tracker](https://github.com/MaximumADHD/Roblox-FFlag-Tracker)
