@@ -225,7 +225,21 @@ Stop rendering every player's clothing, making them appear grey
 Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8; the higher the number, the more it may affect performance
 
 ```json
-"FIntDebugForceMSAASamples": 1,
+"FIntDebugForceMSAASamples": 1
+```
+
+### No Shadows
+Disables part and player shadows
+
+```json
+"FIntRenderShadowIntensity": 0
+```
+
+### No Post-Processing Effects
+Disables all [post-processing effects](https://create.roblox.com/docs/environment/post-processing-effects) like blur and depth-of-field
+
+```json
+"FFlagDisablePostFx": true
 ```
 
 ## User Interface
@@ -236,8 +250,25 @@ Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [c
 > [!IMPORTANT]
 > Requires you to be in a group
 
+> [!TIP]
+> Use with the Gui toggle [Flag]() for best experience
+
 ```json
 "DFIntCanHideGuiGroupId": "GroupId"
+```
+
+### No Chat
+Focus on the game rather than dealing with salty kids
+
+```json
+"FFlagDebugForceChatDisabled": true
+```
+
+### No Sound Drivers
+Disables Roblox from detecting audio output devices
+
+```json
+"FFlagDebugRomarkMockingAudioDevices": true
 ```
 
 ### 2015 Gui
@@ -292,10 +323,21 @@ Adds more quality bars from 10 to 21 bars
 ```
 
 ### Set FPS Cap
-Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 240; requires the target fps [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap) to be 0 (Default)
+Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 240;
+
+> [!IMPORTANT]
+> Requires the target fps [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap) to be set to 0 (Default)
 
 ```json
 "FFlagGameBasicSettingsFramerateCap": true
+```
+
+### Hide Guis
+Allows you to toggle game Guis in the Roblox settings
+
+```json
+"FFlagUserShowGuiHideToggles": true,
+"GuiHidingApiSupport2": true
 ```
 
 ### Set Camera Zoom Limit
@@ -305,10 +347,24 @@ Allows you to set your camera's max zoom limit; does not work on games with cust
 "FIntCameraMaxZoomDistance": 16384
 ```
 
+### No Roblox Blur Overlay
+Disables the blur you see in loading and disconnection screens
+
+```json
+"FIntRobloxGuiBlurIntensity": 0
+```
+
+### Set Start Graphics Quality
+Allows you to set the graphics quality Roblox will always start with; up to 10 by default, up to 21 if the quality [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#advanced-graphics-quality) is enabled
+
+```json
+"FIntRomarkStartWithGraphicQualityLevel": 1
+```
+
 ## Others
 
 ### Not What You're Looking For
-What are you doing?
+*What are you doing?*
 
 ```json
 "DFFlagNotWhatYoureLookingFor": true
@@ -329,8 +385,21 @@ Disables in-game ads and ad portals
 ```
 
 ### Force Lottery Win
-Makes you win every Roblox's lottery event
+*Makes you win every Roblox's lottery event*
 
 ```json
 "FFlagDebugAnalyticsForceLotteryWin": true
+```
+
+### Inhibit Roblox Data Collection
+Does not fully disable Roblox's telemetry system but stops most collection of user data.
+
+```json
+"FFlagDebugDisableTelemetryEphemeralCounter": true,
+"FFlagDebugDisableTelemetryEphemeralStat": true,
+"FFlagDebugDisableTelemetryEventIngest": true,
+"FFlagDebugDisableTelemetryPoint": true,
+"FFlagDebugDisableTelemetryV2Counter": true,
+"FFlagDebugDisableTelemetryV2Event": true,
+"FFlagDebugDisableTelemetryV2Stat": true
 ```
