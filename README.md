@@ -252,7 +252,7 @@ Disables all [post-processing effects](https://create.roblox.com/docs/environmen
 Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [ctrl+⇧+b], and player names [ctrl+⇧+n].
 
 > [!IMPORTANT]
-> Requires you to be in a [group](32380007).
+> Requires you to be in a [group](https://www.roblox.com/groups/32380007).
 
 > [!TIP]
 > Use with the Gui toggle [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#hide-guis-1) for best experience.
