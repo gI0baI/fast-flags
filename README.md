@@ -251,7 +251,7 @@ Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [c
 > Requires you to be in a group
 
 > [!TIP]
-> Use with the Gui toggle [Flag]() for best experience
+> Use with the Gui toggle [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#hide-guis-1) for best experience
 
 ```json
 "DFIntCanHideGuiGroupId": "GroupId"
