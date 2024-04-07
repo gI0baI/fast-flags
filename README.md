@@ -287,7 +287,7 @@ The client will use the classic v1 Gui.
 ```
 
 ### 2020 Gui
-The client will use the v2 side Gui.
+The client will use the v2 side bar Gui.
 
 > [!IMPORTANT]
 > Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
