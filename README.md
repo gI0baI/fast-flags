@@ -24,7 +24,7 @@
 2. `%localappdata%/Roblox/Versions/ClientSettings/ClientAppSettings.json`
 
 > [!NOTE]
-> For every installation and update, Roblox clears the `ClientSettings` folder. It's best to keep a backup of your `ClientAppSettings.json` file
+> For every installation and update, Roblox clears the `ClientSettings` folder. It's best to keep a backup of your `ClientAppSettings.json` file.
 > You may install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) for automatic changes
 
 ### Modifying the JSON Flags file
