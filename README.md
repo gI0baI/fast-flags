@@ -69,7 +69,7 @@ Allows you to clip through thin walls / floors; the lower the number, the more t
 ```
 
 ### Fake Lag
-Simulates high latency / desync as you will appear late in the server than the client
+Simulates high latency / desync as you will appear behind in the server than what it looks in the client
 
 ```json
 "DFIntS2PhysicsSenderRate": "1"
