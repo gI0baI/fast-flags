@@ -41,11 +41,12 @@
 
 # Fast Flags
 
-* [Graphics](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#graphics)
-* [Physics](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#physics)
-* [Render](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#render)
-* [User Interface](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#user-interface)
-* [Others](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#others)
+- [Graphics](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#graphics)
+- [Physics](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#physics)
+- [Render](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#render)
+- [User Interface](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#user-interface)
+- [Others](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#others)
+- [Credits](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#credits)
 
 ## Graphics
 
@@ -410,5 +411,5 @@ Does not fully disable Roblox's telemetry system but stops most collection of us
 # Credits
 - [Bloxstrap Discord](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712)
 - [Fast Flags Collection](https://github.com/GoingCrazyDude/fastflags-collection/)
-- [Fast Flags Collective](https://github.com/FastFlags/FastFlags-Collective)
+- [Fast Flags Collective](https://github.com/FastFlags/FastFlags-Collective) <3
 - [Roblox FFlag Tracker](https://github.com/MaximumADHD/Roblox-FFlag-Tracker)
