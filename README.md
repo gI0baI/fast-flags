@@ -95,7 +95,7 @@ Displays your FPS without pressing [shift+f5] and showing other details with the
 ```
 
 ### Exclusive Fullscreen
-Allows you to enter exclusive fullscreen mode by pressing [alt+enter]; significantly improves performance, lowers input latency, with the expense of screen tearing.
+Allows you to enter exclusive fullscreen mode by pressing [alt+enter]. Significantly improves performance, lowers input latency, with the expense of screen tearing.
 
 > [!NOTE]
 > V-sync will be disabled upon entering exclusive fullscreen.
@@ -345,7 +345,7 @@ Allows you to toggle game Guis in the Roblox settings.
 ```
 
 ### Set Camera Zoom Limit
-Allows you to set your camera's max zoom limit; does not work on games with customized zoom limits.
+Allows you to set your camera's max zoom limit. Does not work on games with customized zoom limits.
 
 ```json
 "FIntCameraMaxZoomDistance": 16384
@@ -359,7 +359,7 @@ Disables the blur you see in loading and disconnection screens.
 ```
 
 ### Set Start Graphics Quality
-Allows you to set the graphics quality Roblox will always start with; up to 10 by default, up to 21 if the quality [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#advanced-graphics-quality) is enabled.
+Allows you to set the graphics quality Roblox will always start with. Up to 10 by default, and up to 21 if the quality [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#advanced-graphics-quality) is enabled.
 
 ```json
 "FIntRomarkStartWithGraphicQualityLevel": 1
