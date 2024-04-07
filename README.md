@@ -412,5 +412,5 @@ Does not fully disable Roblox's telemetry system but stops most collection of us
 - [Bloxstrap Discord](https://discord.gg/nKjV3mGq6R)
 - [Epic Fast Flags List](https://github.com/devstacking/Epic-Fast-Flags-List)
 - [Fast Flags Collection](https://github.com/GoingCrazyDude/fastflags-collection/)
-- [Fast Flags Collective](https://github.com/FastFlags/FastFlags-Collective) <3
+- [Fast Flags Collective](https://github.com/FastFlags/FastFlags-Collective) :3
 - [Roblox FFlag Tracker](https://github.com/MaximumADHD/Roblox-FFlag-Tracker)
