@@ -93,7 +93,7 @@ Adds more quality bars from 10 to 21 bars
 ```
 
 ### Anti-aliasing
-Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8; the higher the number, the more it may impact the performance
+Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8; the higher the number, the more it may affect performance
 
 ```json
 "FIntDebugForceMSAASamples": 1,
