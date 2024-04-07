@@ -34,7 +34,7 @@
 }
 ```
 
-###### More information about Flags [here](https://github.com/MaximumADHD/Roblox-FFlag-Tracker)
+###### More information about Flags [here](https://github.com/MaximumADHD/Roblox-FFlag-Tracker?tab=readme-ov-file#terminology)
 
 # Fast Flags
 
