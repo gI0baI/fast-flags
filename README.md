@@ -326,7 +326,7 @@ Adds more quality bars from 10 to 21 bars.
 ```
 
 ### Set FPS Cap
-Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 240.
+Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, or 240.
 
 > [!IMPORTANT]
 > Requires the target fps [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap) to be set to 0 (Default).
