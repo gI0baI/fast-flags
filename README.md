@@ -50,12 +50,11 @@ Highlights physically moving parts by pressing [ctrl+f8][ctrl+i]
 "DFFlagDebugEnableInterpolationVisualizer": true
 ```
 
-### Fix / Force Blurry Textures
-Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and distorted? No problem, this Flag controls all that! Allows you to set the quality of textures from 0 to 3, where 0 and 3 are the lowest and highest quality, respectively
+### Quality Scale Fix
+Fixes blurry quality when your display scale is greater than 100%
 
 ```json
-"DFFlagTextureQualityOverrideEnabled": true,
-"DFIntTextureQualityOverride": 3
+"DFFlagDisableDPIScale": true
 ```
 
 ### Set FPS Cap
@@ -65,7 +64,7 @@ Allows you to set your max FPS limit; however, unlike [RFU](https://github.com/a
 > A more advanced [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap-1) is available
 
 ```json
-"DFIntTaskSchedulerTargetFps": "144"
+"DFIntTaskSchedulerTargetFps": 144
 ```
 
 ### Player Billboard
@@ -85,20 +84,6 @@ Displays your FPS without pressing [shift+f5] and showing other details with the
 "FFlagDebugDisplayFPS": true
 ```
 
-### Advanced Graphics Quality
-Adds more quality bars from 10 to 21 bars
-
-```json
-"FFlagFixGraphicsQuality": true
-```
-
-### Anti-aliasing
-Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8; the higher the number, the more it may affect performance
-
-```json
-"FIntDebugForceMSAASamples": 1,
-```
-
 ## Physics
 
 ### Noclip
@@ -108,14 +93,14 @@ Allows you to clip through thin walls / floors; the lower the number, the more t
 > This Flag is exploitable
 
 ```json
-"DFFlagAssemblyExtentsExpansionStudHundredth": "-30"
+"DFFlagAssemblyExtentsExpansionStudHundredth": -30
 ```
 
 ### Fake Lag
 Simulates high latency / desync as you will appear behind in the server than what it looks in the client
 
 ```json
-"DFIntS2PhysicsSenderRate": "1"
+"DFIntS2PhysicsSenderRate": 1
 ```
 
 ### Wall speeding
@@ -129,6 +114,35 @@ Controllable speed hack by gliding on long walls
 ```
 
 ## Render
+
+### Shadowmap [Lighting Technology](https://create.roblox.com/docs/environment/lighting#technology)
+Forces future shadows but voxel lighting
+
+```json
+"FFlagDebugForceFutureIsBrightPhase2": true
+```
+
+### Future [Lighting Technology](https://create.roblox.com/docs/environment/lighting#technology)
+Forces future shadows and lighting
+
+```json
+"FFlagDebugForceFutureIsBrightPhase3": true
+```
+
+### Voxel [Lighting Technology](https://create.roblox.com/docs/environment/lighting#technology)
+Forces voxel shadows and lighting
+
+```json
+"DFFlagDebugRenderForceTechnologyVoxel": true
+```
+
+### Fix / Force Blurry Textures
+Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and distorted? No problem, this Flag controls all that! Allows you to set the quality of textures from 0 to 3, where 0 and 3 are the lowest and highest quality, respectively
+
+```json
+"DFFlagTextureQualityOverrideEnabled": true,
+"DFIntTextureQualityOverride": 3
+```
 
 ### Low Mesh and Union Detail
 Unions and meshes are composed of [constructive solid geometry](https://devforum.roblox.com/t/quick-guide-into-csg-increasing-performance-of-unions-meshes/627677) or CSG, which enables Roblox to form complex shapes. This Flag lowers the detail and quality of CSG parts, effectively improving performance.
@@ -147,7 +161,63 @@ Stop rendering every player's clothing, making them appear grey
 "DFIntTextureCompositorActiveJobs": 0
 ```
 
+### Anti-aliasing
+Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8; the higher the number, the more it may affect performance
+
+```json
+"FIntDebugForceMSAASamples": 1,
+```
+
 ## User Interface
+
+### Hide Guis
+Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [ctrl+⇧+b], and player names [ctrl+⇧+n]; requires you to be in any group
+
+```json
+"DFIntCanHideGuiGroupId": "GroupId"
+```
+
+### 2015 Gui
+The client will use the classic v1 Gui
+
+```json
+"FFlagDisableNewIGMinDUA": true,
+"FFlagEnableInGameMenuControls": false,
+"FFlagEnableInGameMenuModernization": false
+```
+
+### 2020 Gui
+The client will use the v2 side Gui
+
+```json
+"FFlagDisableNewIGMinDUA": false,
+"FFlagEnableInGameMenuControls": false,
+"FFlagEnableInGameMenuModernization": false
+```
+
+### 2023 Gui
+The client will use the modern v3 Gui; requires the v4 Gui [Flag]() to be disabled
+
+```json
+"FFlagDisableNewIGMinDUA": true,
+"FFlagEnableInGameMenuControls": true,
+"FFlagEnableInGameMenuModernization": true
+```
+
+### No 2024 Gui
+Roblox has since forced players to use the new Chrome v4 Gui; these Flags disables it
+
+```json
+"FFlagEnableInGameMenuChromeABTest2": false,
+"FFlagEnableReportAbuseMenuRoactABTest2": false
+```
+
+### Advanced Graphics Quality
+Adds more quality bars from 10 to 21 bars
+
+```json
+"FFlagFixGraphicsQuality": true
+```
 
 ### Set FPS Cap
 Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 240; requires the target fps [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap) to be 0 (Default)
