@@ -11,8 +11,9 @@
 1. [⊞+r]
 2. `%localappdata%/Roblox/Versions/ClientSettings/ClientAppSettings.json`
 
-### Format
-3. Follow this format:
+### Modifying the JSON Flags file
+3. Open `ClientAppSettings.json` or create a new `.json` file with the name `ClientAppSettings`
+4. Follow this format:
 
 ```json
 {
