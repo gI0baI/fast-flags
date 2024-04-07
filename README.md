@@ -66,7 +66,7 @@ Adds a black billboard and a red circle above and below every player, respective
 ```
 
 ### Display FPS
-Displays your FPS without pressing [shift+f5] and showing other details with the expense of not being able to toggle
+Displays your FPS without pressing [shift+f5] and showing other details with the expense of not being able to toggle it
 
 ```json
 "FFlagDebugDisplayFPS": true
@@ -118,7 +118,7 @@ Controllable speed hack by gliding on long walls
 ## Render
 
 ### Low Mesh and Union Detail
-Unions and meshes are composed of [constructive solid geometry](https://devforum.roblox.com/t/quick-guide-into-csg-increasing-performance-of-unions-meshes/627677) or CSG, which enables Roblox to form complex shapes. This Flag lowers the detail and quality of CSG parts due to how many tiny triangles there are.
+Unions and meshes are composed of [constructive solid geometry](https://devforum.roblox.com/t/quick-guide-into-csg-increasing-performance-of-unions-meshes/627677) or CSG, which enables Roblox to form complex shapes. This Flag lowers the detail and quality of CSG parts, effectively improving performance.
 
 ```json
 "DFIntCSGLevelOfDetailSwitchingDistance": 0,
@@ -154,6 +154,9 @@ Allows you to set your camera's max zoom limit; does not work on games with cust
 
 ### Not What You're Looking For
 Disables [Byfron](https://devforum.roblox.com/t/welcoming-byfron-to-roblox/2018233)
+
+> [!CAUTION]
+> This Flag is exploitable
 
 ```json
 "DFFlagNotWhatYoureLookingFor": true
