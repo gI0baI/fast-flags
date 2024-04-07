@@ -32,7 +32,7 @@ Highlights physically moving parts by pressing [ctrl+f8][ctrl+i]
 ```
 
 ### Set FPS Cap
-Allows you to set your max FPS limit; however, unlike [RFU](https://github.com/axstin/rbxfpsunlocker)'s memory write mode, the set FPS limit cannot be changed later during the game
+Allows you to set your max FPS limit; however, unlike [RFU](https://github.com/axstin/rbxfpsunlocker)'s memory write mode, the set FPS limit cannot be changed later during the game; a more advanced [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap-1) is available
 
 ```json
 "DFIntTaskSchedulerTargetFps": "144"
@@ -85,7 +85,7 @@ Controllable speed hack by gliding on long walls
 ## User Interface
 
 ### Set FPS Cap
-Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 240; requires the target fps [Flag]() to Default (0)
+Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 240; requires the target fps [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap) to Default (0)
 
 ```json
 "FFlagGameBasicSettingsFramerateCap": true,
