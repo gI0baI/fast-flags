@@ -1,33 +1,92 @@
-# fast-flags
+## Tutorial
 
-<h3>Network Interpolation Visualizer</h1>
-<p>Highlights physically moving parts [ctrl+f8][ctrl+i]</p>
-<h6>false</h6>
+### For Bloxstrap Users
+1. [⊞+r]
+2. `%localappdata%/Bloxstrap/Modifications/ClientSettings/ClientAppSettings.json`
+
+### For Roblox Users
+1. [⊞+r]
+2. `%localappdata%/Roblox/Versions/ClientSettings/ClientAppSettings.json`
+
+### Format
+3. Follow this format:
+
+```json
+{
+	"Flag1": "Value1",
+	"Flag2": "Value2"
+}
+```
+
+###### More information about Flags [here](https://github.com/MaximumADHD/Roblox-FFlag-Tracker)
+
+# Fast Flags
+
+## Graphics
+
+### Network Interpolation Visualizer
+Highlights physically moving parts by pressing [ctrl+f8][ctrl+i]
 
 ```json
 "DFFlagDebugEnableInterpolationVisualizer": true
 ```
 
-<h3>Player Billboard</h1>
-<p>Adds a grey billboard and a red circle above and below every player, respectively</p>
-<h6>false</h6>
+### Set FPS Cap
+Allows you to set your max FPS limit; however, unlike [RFU](https://github.com/axstin/rbxfpsunlocker)'s memory write mode, the set FPS limit cannot be changed later during the game
+
+```json
+"DFIntTaskSchedulerTargetFps": "144"
+```
+
+### Player Billboard
+Adds a grey billboard and a red circle above and below every player, respectively
 
 ```json
 "FFlagDebugAvatarChatVisualization": true
 ```
 
-<h3>Wall speeding</h1>
-<p>Controllable speed hack by gliding on long walls</p>
-<h6>1</h6>
+### Display FPS
+Displays your FPS without pressing [shift+f5] and other details with the expense of toggling
+
+```json
+"FFlagDebugDisplayFPS": true
+```
+
+### Advanced Graphics Quality
+Adds more quality bars from 10 to 21 bars
+
+```json
+"FFlagFixGraphicsQuality": true
+```
+
+## Physics
+
+### Noclip
+Allows you to clip through thin walls / floors; the lower the number, the more the thickness of parts you can clip through
+
+```json
+"DFFlagAssemblyExtentsExpansionStudHundredth": "-30"
+```
+
+### Fake Lag
+Simulates high latency / desync as you will appear late in the server than the client
+
+```json
+"DFIntS2PhysicsSenderRate": "1"
+```
+
+### Wall speeding
+Controllable speed hack by gliding on long walls
 
 ```json
 "DFIntUnstickForceAttackInTenths": -4
 ```
 
-<h3>Advanced Graphics Quality</h1>
-<p>Adds more quality bars from 10 to 21 bars</p>
-<h6>false</h6>
+## User Interface
+
+### Set FPS Cap
+Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, and 240; requires the target fps [Flag]() to Default (0)
 
 ```json
-"FFlagFixGraphicsQuality": true
+"FFlagGameBasicSettingsFramerateCap": true,
 ```
