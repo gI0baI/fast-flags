@@ -1,5 +1,5 @@
 > [!WARNING]
-> In the near future, Roblox is planning to [patch](https://i.redd.it/4c5u68gczbkc1.jpeg) [local Fast Flag modification](https://github.com/pizzaboxer/bloxstrap/issues/1321). As of 07/04/2024, Roblox has not yet forced the update through the [Live channel](https://clientsettings.roblox.com/v2/client-version/WindowsPlayer/channel/Live).
+> In the near future, Roblox is planning to [patch](https://i.redd.it/4c5u68gczbkc1.jpeg) [local Fast Flag modification](https://github.com/pizzaboxer/bloxstrap/issues/1321) by utilizing the [ClientSettings API](https://clientsettings.roblox.com/docs/index.html) for fetching the `ClientSettings.json` file. ~~Probably the same reason why you can't change material textures locally now~~. As of 07/04/2024, Roblox has not yet forced the update through the [Live channel](https://clientsettings.roblox.com/v2/client-version/WindowsPlayer/channel/Live).
 
 # Tutorial
 
