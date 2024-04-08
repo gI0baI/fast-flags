@@ -265,7 +265,7 @@ Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [c
 ```
 
 ### No Chat
-Focus on the game rather than dealing with salty kids.
+Helps you focus on the game rather than having to deal with salty kids.
 
 ```json
 "FFlagDebugForceChatDisabled": true
