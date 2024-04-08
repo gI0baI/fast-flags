@@ -229,7 +229,7 @@ Stops rendering every player's clothing, making them appear grey.
 ```
 
 ### Anti-aliasing
-Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8. The higher the number, the more it may affect performance.
+Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8. The higher the number, the more it may impact performance.
 
 ```json
 "FIntDebugForceMSAASamples": 1
