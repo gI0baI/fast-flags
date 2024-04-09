@@ -298,6 +298,9 @@ The client will use the v2 side bar Gui.
 > [!IMPORTANT]
 > Requires the 2024 Chrome Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
 
+> [!NOTE]
+> Why is there no 2022 v3 Gui? Basically, v2 and v3 are the same Guis, it's just that the files Roblox uses for handling the v3 Gui have been removed.
+
 ```json
 "FFlagDisableNewIGMinDUA": false,
 "FFlagEnableInGameMenuControls": false,
