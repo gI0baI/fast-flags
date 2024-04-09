@@ -1,8 +1,6 @@
 > [!WARNING]
 > In the near future, Roblox is planning to [patch](https://i.redd.it/4c5u68gczbkc1.jpeg) [local Fast Flag modification](https://github.com/pizzaboxer/bloxstrap/issues/1321) by utilizing the [ClientSettings API](https://clientsettings.roblox.com/docs/index.html) for fetching the `ClientSettings.json` file. ~~Probably the same reason why you can't change material textures locally now~~. As of 07/04/2024, Roblox has not yet forced the update through the [Live channel](https://clientsettings.roblox.com/v2/client-version/WindowsPlayer/channel/Live).
 
-<!-- Not my fault yo, fuck Roblox (and some of its community). Roblox has squeezed out great features whether it may be intentional or not, from the release of Byfron (R.I.P. KRNL), the new audio copyright system, shit UI, removing classic faces from the Catalog, and more. There is no way Roblox is listening to its community anymore. No optimized client, lack of graphical settings, retarded moderation, the list just goes on. -->
-
 # Tutorial
 
 > [!TIP]
@@ -500,8 +498,8 @@ Does not fully disable Roblox's telemetry system but stops most collection of us
 }
 ```
 
-### Discord Activity Tracking (Bloxstrap Only)
-Allows Bloxstrap to display the games you play on your Discord profile.
+### Discord Activity Tracking ([Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Only)
+Allows [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) to display the games you play on your Discord profile.
 
 ```json
 {
