@@ -56,7 +56,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 ## Graphics
 
 ### Network Interpolation Visualizer
-Highlights physically moving parts by pressing [ctrl+f8][ctrl+i].
+`false` Highlights physically moving parts by pressing [ctrl+f8][ctrl+i].
 
 > [!CAUTION]
 > This Flag is exploitable.
@@ -68,7 +68,7 @@ Highlights physically moving parts by pressing [ctrl+f8][ctrl+i].
 ```
 
 ### Quality Scale Fix
-Fixes blurry quality when your display scale is greater than 100%.
+`false` Fixes blurry quality when your display scale is greater than 100%.
 
 ```json
 {
@@ -77,7 +77,7 @@ Fixes blurry quality when your display scale is greater than 100%.
 ```
 
 ### Set FPS Cap
-Allows you to set your max FPS limit. However, unlike [RFU](https://github.com/axstin/rbxfpsunlocker)'s memory write mode, the set FPS limit cannot be changed later during the game.
+`0` Allows you to set your max FPS limit. However, unlike [RFU](https://github.com/axstin/rbxfpsunlocker)'s memory write mode, the set FPS limit cannot be changed later during the game.
 
 > [!NOTE]
 > A more advanced [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap-1) is available.
@@ -89,7 +89,7 @@ Allows you to set your max FPS limit. However, unlike [RFU](https://github.com/a
 ```
 
 ### Player Billboard
-Adds a black billboard and a red circle above and below every player, respectively.
+`false` Adds a black billboard and a red circle above and below every player, respectively.
 
 > [!CAUTION] 
 > This Flag is exploitable.
@@ -101,7 +101,7 @@ Adds a black billboard and a red circle above and below every player, respective
 ```
 
 ### Display FPS
-Displays your FPS without pressing [shift+f5] and showing other details with the expense of not being able to toggle it.
+`false` Displays your FPS without pressing [shift+f5] and showing other details with the expense of not being able to toggle it.
 
 ```json
 {
@@ -110,7 +110,7 @@ Displays your FPS without pressing [shift+f5] and showing other details with the
 ```
 
 ### Exclusive Fullscreen
-Allows you to enter exclusive fullscreen mode by pressing [alt+enter]. Significantly improves performance, lowers input latency, with the expense of screen tearing.
+`true` Allows you to enter exclusive fullscreen mode by pressing [alt+enter]. Significantly improves performance, lowers input latency, with the expense of screen tearing.
 
 > [!NOTE]
 > V-sync will be disabled upon entering exclusive fullscreen.
@@ -124,19 +124,19 @@ Allows you to enter exclusive fullscreen mode by pressing [alt+enter]. Significa
 ## Physics
 
 ### Noclip
-Allows you to clip through thin walls / floors. The lower the number, the more the thickness of parts you can clip through.
+`30` Allows you to clip through thin walls / floors. The lower the number, the more the thickness of parts you can clip through.
 
 > [!CAUTION]
 > This Flag is exploitable.
 
 ```json
 {
-	"DFFlagAssemblyExtentsExpansionStudHundredth": -30
+	"DFIntAssemblyExtentsExpansionStudHundredth": -30
 }
 ```
 
 ### Fake Lag
-Simulates high latency / desync as you will appear behind in the server than what it looks in the client.
+`15` Simulates high latency / desync as you will appear behind in the server than what it looks in the client.
 
 ```json
 {
@@ -145,7 +145,7 @@ Simulates high latency / desync as you will appear behind in the server than wha
 ```
 
 ### Wall speeding
-Controllable speed hack by gliding on long walls.
+`1` Controllable speed hack by gliding on long walls.
 
 > [!CAUTION]
 > This Flag is exploitable.
@@ -159,7 +159,7 @@ Controllable speed hack by gliding on long walls.
 ## Render
 
 ### Shadowmap [Lighting Technology](https://create.roblox.com/docs/environment/lighting#technology)
-Forces future shadows but voxel lighting.
+`false` Forces future shadows but voxel lighting.
 
 ```json
 {
@@ -168,7 +168,7 @@ Forces future shadows but voxel lighting.
 ```
 
 ### Future [Lighting Technology](https://create.roblox.com/docs/environment/lighting#technology)
-Forces future shadows and lighting.
+`false` Forces future shadows and lighting.
 
 ```json
 {
@@ -177,7 +177,7 @@ Forces future shadows and lighting.
 ```
 
 ### Voxel [Lighting Technology](https://create.roblox.com/docs/environment/lighting#technology)
-Forces voxel shadows and lighting.
+`false` Forces voxel shadows and lighting.
 
 ```json
 {
@@ -186,7 +186,7 @@ Forces voxel shadows and lighting.
 ```
 
 ### Disable Direct3D 11
-Disables Direct3D 11 so you can use other 3D APIs.
+`false` Disables Direct3D 11 so you can use other 3D APIs.
 
 ```json
 {
@@ -195,7 +195,7 @@ Disables Direct3D 11 so you can use other 3D APIs.
 ```
 
 ### Direct3D 10
-The client will use Direct3D 10 as the 3D rendering API.
+`false` The client will use Direct3D 10 as the 3D rendering API.
 
 > [!IMPORTANT]
 > Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled.
@@ -207,7 +207,7 @@ The client will use Direct3D 10 as the 3D rendering API.
 ```
 
 ### Direct3D 11
-The client will use Direct3D 11 as the 3D rendering API.
+`false` The client will use Direct3D 11 as the 3D rendering API.
 
 ```json
 {
@@ -216,7 +216,7 @@ The client will use Direct3D 11 as the 3D rendering API.
 ```
 
 ### OpenGL API
-The client will use OpenGL as the 3D rendering API.
+`false` The client will use OpenGL as the 3D rendering API.
 
 > [!IMPORTANT]
 > Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled.
@@ -228,7 +228,7 @@ The client will use OpenGL as the 3D rendering API.
 ```
 
 ### Vulkan API
-The client will use Vulkan as the 3D rendering API.
+`false` The client will use Vulkan as the 3D rendering API.
 
 > [!IMPORTANT]
 > Requires the Direct3D 11 [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#disable-direct3d-11) to be disabled.
@@ -240,7 +240,7 @@ The client will use Vulkan as the 3D rendering API.
 ```
 
 ### Fix / Force Blurry Textures
-Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and distorted? No problem, this Flag controls all that! It allows you to set the quality of textures from 0 to 3, where 0 and 3 are the lowest and highest quality, respectively.
+`false` `3` Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and distorted? No problem, this Flag controls all that! It allows you to set the quality of textures from 0 to 3, where 0 and 3 are the lowest and highest quality, respectively.
 
 ```json
 {
@@ -250,7 +250,7 @@ Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and disto
 ```
 
 ### Low Mesh and Union Detail
-Unions and meshes are composed of small polygons like triangles with the help of [constructive solid geometry](https://devforum.roblox.com/t/quick-guide-into-csg-increasing-performance-of-unions-meshes/627677) or CSG. This Flag lowers the detail and quality of CSG parts by reducing the amount of polygons rendered.
+`250` `500` `2000` `3000` Unions and meshes are composed of small polygons like triangles with the help of [constructive solid geometry](https://devforum.roblox.com/t/quick-guide-into-csg-increasing-performance-of-unions-meshes/627677) or CSG. This Flag lowers the detail and quality of CSG parts by reducing the amount of polygons rendered.
 
 ```json
 {
@@ -262,7 +262,7 @@ Unions and meshes are composed of small polygons like triangles with the help of
 ```
 
 ### No Player Textures
-Stops rendering every player's clothing, making them appear grey.
+`8` Stops rendering every player's clothing, making them appear grey.
 
 ```json
 {
@@ -271,7 +271,7 @@ Stops rendering every player's clothing, making them appear grey.
 ```
 
 ### Anti-aliasing
-Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8. The higher the number, the more it may impact performance.
+`0` Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8. The higher the number, the more it may impact performance.
 
 ```json
 {
@@ -280,7 +280,7 @@ Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8. The higher th
 ```
 
 ### No Shadows
-Disables part and player shadows.
+`75` Disables part and player shadows.
 
 ```json
 {
@@ -289,7 +289,7 @@ Disables part and player shadows.
 ```
 
 ### No Post-Processing Effects
-Disables all [post-processing effects](https://create.roblox.com/docs/environment/post-processing-effects) like blur and depth-of-field.
+`false` Disables all [post-processing effects](https://create.roblox.com/docs/environment/post-processing-effects) like blur and depth-of-field.
 
 ```json
 {
@@ -300,7 +300,7 @@ Disables all [post-processing effects](https://create.roblox.com/docs/environmen
 ## User Interface
 
 ### Hide Guis
-Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [ctrl+⇧+b], and player names [ctrl+⇧+n].
+`4358041` Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [ctrl+⇧+b], and player names [ctrl+⇧+n].
 
 > [!IMPORTANT]
 > Requires you to be in a [group](https://www.roblox.com/groups/32380007).
@@ -315,7 +315,7 @@ Allows you to hide game Guis [ctrl+⇧+c], core Guis [ctrl+⇧+g], billboards [c
 ```
 
 ### No Chat
-Helps you focus on the game rather than having to deal with salty kids.
+`false` Helps you focus on the game rather than having to deal with salty kids.
 
 ```json
 {
@@ -324,7 +324,7 @@ Helps you focus on the game rather than having to deal with salty kids.
 ```
 
 ### No Sound Drivers
-Disables Roblox from detecting audio output devices.
+`false` Disables Roblox from detecting audio output devices.
 
 ```json
 {
@@ -333,7 +333,7 @@ Disables Roblox from detecting audio output devices.
 ```
 
 ### 2015 Gui
-The client will use the classic v1 Gui.
+`false` `false` `false` The client will use the classic v1 Gui.
 
 > [!IMPORTANT]
 > Requires the 2024 Chrome Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
@@ -347,7 +347,7 @@ The client will use the classic v1 Gui.
 ```
 
 ### 2020 Gui
-The client will use the v2 side bar Gui.
+`false` `false` `false` The client will use the v2 side bar Gui.
 
 > [!IMPORTANT]
 > Requires the 2024 Chrome Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
@@ -364,7 +364,7 @@ The client will use the v2 side bar Gui.
 ```
 
 ### 2023 Gui
-The client will use the modern v4 Gui.
+`false` `false` `false` The client will use the modern v4 Gui.
 
 > [!IMPORTANT]
 > Requires the 2024 Chrome Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
@@ -378,7 +378,7 @@ The client will use the modern v4 Gui.
 ```
 
 ### No 2024 Gui
-Roblox has since forced players to use the new Chrome Gui; these Flags disables it.
+`true` `true` Roblox has since forced players to use the new Chrome Gui; these Flags disables it.
 
 ```json
 {
@@ -388,7 +388,7 @@ Roblox has since forced players to use the new Chrome Gui; these Flags disables 
 ```
 
 ### Advanced Graphics Quality
-Adds more quality bars from 10 to 21 bars.
+`false` Adds more quality bars from 10 to 21 bars.
 
 ```json
 {
@@ -397,7 +397,7 @@ Adds more quality bars from 10 to 21 bars.
 ```
 
 ### Set FPS Cap
-Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, or 240.
+`false` Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, or 240.
 
 > [!IMPORTANT]
 > Requires the target fps [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#set-fps-cap) to be set to 0 (Default).
@@ -409,7 +409,7 @@ Allows you to set your max FPS limit in the Roblox settings by 30, 60, 144, or 2
 ```
 
 ### Hide Guis
-Allows you to toggle game Guis in the Roblox settings.
+`false` `false` Allows you to toggle game Guis in the Roblox settings.
 
 ```json
 {
@@ -419,7 +419,7 @@ Allows you to toggle game Guis in the Roblox settings.
 ```
 
 ### Set Camera Zoom Limit
-Allows you to set your camera's max zoom limit. Does not work on games with customized zoom limits.
+`400` Allows you to set your camera's max zoom limit. Does not work on games with customized zoom limits.
 
 ```json
 {
@@ -428,7 +428,7 @@ Allows you to set your camera's max zoom limit. Does not work on games with cust
 ```
 
 ### No Roblox Blur Overlay
-Disables the blur you see in loading and disconnection screens.
+`24` Disables the blur you see in loading and disconnection screens.
 
 ```json
 {
@@ -437,7 +437,7 @@ Disables the blur you see in loading and disconnection screens.
 ```
 
 ### Set Start Graphics Quality
-Allows you to set the graphics quality Roblox will always start with. Up to 10 by default, and up to 21 if the quality [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#advanced-graphics-quality) is enabled.
+`0` Allows you to set the graphics quality Roblox will always start with. Up to 10 by default, and up to 21 if the quality [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#advanced-graphics-quality) is enabled.
 
 ```json
 {
@@ -448,7 +448,7 @@ Allows you to set the graphics quality Roblox will always start with. Up to 10 b
 ## Others
 
 ### Not What You're Looking For
-*What are you doing?*
+`false` *What are you doing?*
 
 ```json
 {
@@ -457,7 +457,7 @@ Allows you to set the graphics quality Roblox will always start with. Up to 10 b
 ```
 
 ### No purchase pop-up
-Disables in-game purchases.
+`false` Disables in-game purchases.
 
 ```json
 {
@@ -466,7 +466,7 @@ Disables in-game purchases.
 ```
 
 ### No ads
-Disables in-game ads and ad portals.
+`true` Disables in-game ads and ad portals.
 
 ```json
 {
@@ -475,7 +475,7 @@ Disables in-game ads and ad portals.
 ```
 
 ### Force Lottery Win
-*Makes you win every Roblox's lottery event.*
+`false` *Makes you win every Roblox's lottery event.*
 
 ```json
 {
@@ -484,7 +484,7 @@ Disables in-game ads and ad portals.
 ```
 
 ### Inhibit Roblox Data Collection
-Does not fully disable Roblox's telemetry system but stops most collection of user data.
+`false` `false` `false` `false` `false` `false` `false` Does not fully disable Roblox's telemetry system but stops most collection of user data.
 
 ```json
 {
@@ -499,7 +499,7 @@ Does not fully disable Roblox's telemetry system but stops most collection of us
 ```
 
 ### Discord Activity Tracking ([Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Only)
-Allows [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) to display the games you play on your Discord profile.
+`0` Allows [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) to display the games you play on your Discord profile.
 
 ```json
 {
