@@ -214,7 +214,7 @@ Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and disto
 ```
 
 ### Low Mesh and Union Detail
-Unions and meshes are composed of [constructive solid geometry](https://devforum.roblox.com/t/quick-guide-into-csg-increasing-performance-of-unions-meshes/627677) or CSG, which enables Roblox to form complex shapes. This Flag lowers the detail and quality of CSG parts, effectively improving performance.
+Unions and meshes are composed of small polygons like triangles with the help of [constructive solid geometry](https://devforum.roblox.com/t/quick-guide-into-csg-increasing-performance-of-unions-meshes/627677) or CSG. This Flag lowers the detail and quality of CSG parts by reducing the amount of polygons rendered.
 
 ```json
 "DFIntCSGLevelOfDetailSwitchingDistance": 0,
