@@ -46,6 +46,8 @@
 
 # Fast Flags
 
+May this list serve as an in-depth explanation to different Flags you may have heard of but not familiar with its functionality. You may fork and send a pull request if you have any corrections / suggestions that deserves to be in this list.
+
 - [Graphics](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#graphics)
 - [Physics](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#physics)
 - [Render](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#render)
@@ -495,6 +497,15 @@ Does not fully disable Roblox's telemetry system but stops most collection of us
 	"FFlagDebugDisableTelemetryV2Counter": true,
 	"FFlagDebugDisableTelemetryV2Event": true,
 	"FFlagDebugDisableTelemetryV2Stat": true
+}
+```
+
+### Discord Activity Tracking (Bloxstrap Only)
+Allows Bloxstrap to display the games you play on your Discord profile.
+
+```json
+{
+	"FLogNetwork": 7
 }
 ```
 
