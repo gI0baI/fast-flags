@@ -284,7 +284,7 @@ Disables Roblox from detecting audio output devices.
 The client will use the classic v1 Gui.
 
 > [!IMPORTANT]
-> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
+> Requires the 2024 Chrome Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
 
 ```json
 "FFlagDisableNewIGMinDUA": true,
@@ -296,7 +296,7 @@ The client will use the classic v1 Gui.
 The client will use the v2 side bar Gui.
 
 > [!IMPORTANT]
-> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
+> Requires the 2024 Chrome Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
 
 ```json
 "FFlagDisableNewIGMinDUA": false,
@@ -305,10 +305,10 @@ The client will use the v2 side bar Gui.
 ```
 
 ### 2023 Gui
-The client will use the modern v3 Gui.
+The client will use the modern v4 Gui.
 
 > [!IMPORTANT]
-> Requires the 2024 v4 Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
+> Requires the 2024 Chrome Gui [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-2024-gui) to be disabled.
 
 ```json
 "FFlagDisableNewIGMinDUA": true,
@@ -317,7 +317,7 @@ The client will use the modern v3 Gui.
 ```
 
 ### No 2024 Gui
-Roblox has since forced players to use the new Chrome v4 Gui; these Flags disables it.
+Roblox has since forced players to use the new Chrome Gui; these Flags disables it.
 
 ```json
 "FFlagEnableInGameMenuChromeABTest2": false,
