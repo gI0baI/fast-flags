@@ -465,16 +465,6 @@ May this list serve as an in-depth explanation to different Flags you may have h
 }
 ```
 
-### Reduce Network Latency
-`3` `300` `512` Helps reduce your ping
-
-```json
-{
-	"DFIntRakNetResendRttMultiple": "1",
-	"DFIntRaknetBandwidthPingSendEveryXSeconds": "1",
-	"FIntRakNetResendBufferArrayLength": "128"
-}
-```
 ### No Ads
 `true` Disables in-game ads and ad portals.
 
