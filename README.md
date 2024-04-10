@@ -508,7 +508,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 ```
 
 ### [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Activity Tracking ([Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Only)
-`0` Allows [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) to display information about the games you play, as well as displaying it on your Discord profile.
+`0` Allows [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) to display information about the games you play, as well as enabling [Discord Rich Presence](https://discord.com/developers/docs/rich-presence/how-to) for your profile.
 
 ```json
 {
