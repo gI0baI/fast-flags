@@ -309,6 +309,9 @@ May this list serve as an in-depth explanation to different Flags you may have h
 ### No Player Textures
 `false` The former way of rendering players grey, now causes the 'Roblox has crashed. Please perform a Windows clean boot.' error.
 
+> [!NOTE]
+> A more advanced [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#no-player-textures) is available.
+
 ```json
 {
 	"FFlagFailsafeHumanoid_3": true
