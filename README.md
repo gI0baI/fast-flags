@@ -63,7 +63,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 
 ```json
 {
-	"DFFlagDebugEnableInterpolationVisualizer": true
+	"SFlogDebugEnableInterpolationVisualizer": true
 }
 ```
 
@@ -96,7 +96,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 
 ```json
 {
-	"FFlagDebugAvatarChatVisualization": true
+	"SFlogDebugAvatarChatVisualization": true
 }
 ```
 
@@ -131,7 +131,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 
 ```json
 {
-	"DFIntAssemblyExtentsExpansionStudHundredth": -30
+	"SFlogAssemblyExtentsExpansionStudHundredth": -30
 }
 ```
 
@@ -161,7 +161,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 
 ```json
 {
-	"DFIntUnstickForceAttackInTenths": -4
+	"SFlogUnstickForceAttackInTenths": -4
 }
 ```
 
