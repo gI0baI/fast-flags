@@ -135,6 +135,15 @@ May this list serve as an in-depth explanation to different Flags you may have h
 }
 ```
 
+### Set Physics FPS Cap
+`16` Allows you to set the max physics limit, however it only goes below 60 to literally prevent speed hacking. Going beyond `16` prevents the physics FPS from going below 60, especially during FPS drops.
+
+```json
+{
+	"DFIntMaxMissedWorldStepsRemembered": 9223372036854776000
+}
+```
+
 ### Fake Lag
 `15` Simulates high latency / desync as you will appear behind in the server than what it looks in the client.
 
@@ -240,7 +249,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 ```
 
 ### Fix / Force Blurry Textures
-`false` `3` Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and distorted? No problem, this Flag controls all that! It allows you to set the quality of textures from 0 to 3, where 0 and 3 are the lowest and highest quality, respectively.
+`false` `3` Do you have a sh*tty PC? Is Roblox forcing textures to look all slushy and distorted? No problem, this Flag controls all that! It allows you to set the quality of textures from `0` to `3`, where `0` and `3` are the lowest and highest quality, respectively.
 
 ```json
 {
@@ -271,7 +280,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 ```
 
 ### Anti-aliasing
-`0` Sets the intensity of anti-aliasing by 0 (Default), 1, 2, 4, or 8. The higher the number, the more it may impact performance.
+`0` Sets the intensity of anti-aliasing by `0` (Default), `1`, `2`, `4`, or `8`. The higher the number, the more it may impact performance.
 
 ```json
 {
