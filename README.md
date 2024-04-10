@@ -136,7 +136,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 ```
 
 ### Set Physics FPS Cap
-`16` Allows you to set the max physics limit, however it only goes below 60 to literally prevent speed hacking. Going beyond `16` prevents the physics FPS from going below 60, especially during FPS drops.
+`16` Allows you to set the max physics limit, however it only goes above 15 and below 60 to literally prevent speed hacking. Setting it to `9223372036854776000` prevents the physics FPS from going below 60, useful to prevent slow-downs during FPS drops.
 
 ```json
 {
@@ -303,6 +303,15 @@ May this list serve as an in-depth explanation to different Flags you may have h
 ```json
 {
 	"FFlagDisablePostFx": true
+}
+```
+
+### No Player Textures
+`false` The former way of rendering players grey, now causes the 'Roblox has crashed. Please perform a Windows clean boot.' error.
+
+```json
+{
+	"FFlagFailsafeHumanoid_3": true
 }
 ```
 
