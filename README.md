@@ -288,6 +288,16 @@ May this list serve as an in-depth explanation to different Flags you may have h
 }
 ```
 
+### Light Updates <sub>by [catb0x](https://github.com/catb0x/roblox-potato-fflags)</sub>
+`8` `2` Limits light updates.
+
+```json
+{
+	"FIntRenderLocalLightUpdatesMax": 1,
+	"FIntRenderLocalLightUpdatesMin": 1
+}
+```
+
 ### No Shadows
 `75` Disables part and player shadows.
 
