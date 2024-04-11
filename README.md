@@ -531,4 +531,5 @@ May this list serve as an in-depth explanation to different Flags you may have h
 - [Epic Fast Flags List](https://github.com/devstacking/Epic-Fast-Flags-List)
 - [Fast Flags Collection](https://github.com/GoingCrazyDude/fastflags-collection/)
 - [Fast Flags Collective](https://github.com/FastFlags/FastFlags-Collective) :3
+- [Potato Flags](https://github.com/catb0x/roblox-potato-fflags)
 - [Roblox FFlag Tracker](https://github.com/MaximumADHD/Roblox-FFlag-Tracker)
