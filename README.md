@@ -456,7 +456,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 ```
 
 ### Set Start Graphics Quality
-`0` Allows you to set the graphics quality Roblox will always start with. Up to 10 by default, and up to 21 if the quality [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#advanced-graphics-quality) is enabled.
+`-1` Allows you to set the graphics quality Roblox will always start with. Up to 10 by default, and up to 21 if the quality [Flag](https://github.com/gI0baI/fast-flags/?tab=readme-ov-file#advanced-graphics-quality) is enabled.
 
 ```json
 {
@@ -518,7 +518,7 @@ May this list serve as an in-depth explanation to different Flags you may have h
 ```
 
 ### [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Activity Tracking ([Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Only)
-`0` Allows [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) to display information about the games you play, as well as enabling [Discord Rich Presence](https://discord.com/developers/docs/rich-presence/how-to) for your profile.
+`undefined` Allows [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) to display information about the games you play, as well as enabling [Discord Rich Presence](https://discord.com/developers/docs/rich-presence/how-to) for your profile.
 
 ```json
 {
